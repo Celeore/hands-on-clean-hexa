@@ -49,6 +49,11 @@ test {
     }
 }
 
+task checkCleanArchi(type: Exec) {
+    commandLine 'tools/check-cleanArchi.sh'
+}
+check.dependsOn checkCleanArchi
+
 wrapper {
     gradleVersion = '4.10.2'
 }
