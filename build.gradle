@@ -18,14 +18,10 @@ repositories {
         // Mail
         compile 'javax.mail:mail:1.4.7'
         // Tools
-        compile 'org.projectlombok:lombok:1.18.4'
         compile 'io.springfox:springfox-swagger2:2.9.2'
         compile 'io.springfox:springfox-swagger-ui:2.9.2'
         compile 'ch.qos.logback:logback-classic:1.2.3'
 
-        // Annotation Processors
-        annotationProcessor 'org.projectlombok:lombok:1.18.4'
-        testAnnotationProcessor 'org.projectlombok:lombok:1.18.4'
         // Tests
         testImplementation 'org.springframework.boot:spring-boot-starter-test:2.1.0.RELEASE'
         testImplementation 'org.assertj:assertj-core:3.11.1'
