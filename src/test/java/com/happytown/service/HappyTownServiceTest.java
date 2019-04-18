@@ -2,7 +2,7 @@ package com.happytown.service;
 
 import com.dumbster.smtp.SimpleSmtpServer;
 import com.dumbster.smtp.SmtpMessage;
-import com.happytown.domain.Habitant;
+import com.happytown.core.entities.Habitant;
 import com.happytown.repository.HabitantRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

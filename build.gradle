@@ -43,7 +43,6 @@ dependencies {
     // Tools
     implementation "io.springfox:springfox-swagger2:${swaggerVersion}"
     implementation "io.springfox:springfox-swagger-ui:${swaggerVersion}"
-    implementation "ch.qos.logback:logback-classic:${logbackVersion}"
 
     // Tests
     testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
@@ -53,10 +52,7 @@ dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
     testImplementation "dumbster:dumbster:${dumbsterVersion}"
-
-    // Annotations
-    implementation "org.projectlombok:lombok:${lombokVersion}"
-    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+    
 }
 
 test {

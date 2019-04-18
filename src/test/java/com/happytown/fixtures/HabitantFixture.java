@@ -1,6 +1,6 @@
 package com.happytown.fixtures;
 
-import com.happytown.domain.Habitant;
+import com.happytown.core.entities.Habitant;
 
 import java.time.LocalDate;
 import java.util.UUID;

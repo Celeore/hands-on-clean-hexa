@@ -1,5 +1,7 @@
 package com.happytown.domain;
 
+import com.happytown.core.entities.Cadeau;
+import com.happytown.core.entities.TrancheAge;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
